@@ -1,0 +1,3 @@
+module github.com/RedHat007-rgb/hft-phase-1-2/apps/go-services/ticker-service
+
+go 1.24.4
