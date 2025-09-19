@@ -7,5 +7,5 @@ export const redisClient: RedisClientType = createClient({
 redisClient.on("error", (err) => {
   console.log("error connecting  to redis ", err);
 });
-
+redisClient.connect();
 export default redisClient;
